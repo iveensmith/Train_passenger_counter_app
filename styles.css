@@ -9,9 +9,9 @@ body {
 
 .card {
   width: 500px;
-  height: 300px;
+  height: 400px;
   margin: 100px auto;
-  background-color: coral;
+  background-color: rgb(8, 3, 1);
   opacity: 0.7;
   border-radius: 5%;
 }
@@ -38,12 +38,22 @@ button {
   width: 200px;
   margin-bottom: 5px;
   border-radius: 5px;
+  background: rgb(9, 65, 9);
 }
 
-#increment-btn {
-  background: rgb(54, 1, 1);
+#save-el {
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px;
+  width: fit-content;
+  margin: 15px auto;
+  border-radius: 5px;
 }
 
-#save-btn {
-  background: rgb(1, 26, 1);
+
+#reset-btn {
+  margin: 18px auto;
 }
+
+
